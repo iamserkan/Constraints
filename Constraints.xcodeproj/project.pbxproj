@@ -12,6 +12,7 @@
 		B3016C15209D0506008848EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3016C13209D0506008848EE /* Main.storyboard */; };
 		B3016C17209D0506008848EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3016C16209D0506008848EE /* Assets.xcassets */; };
 		B3016C1A209D0506008848EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3016C18209D0506008848EE /* LaunchScreen.storyboard */; };
+		B3016C22209D08A0008848EE /* QR.png in Resources */ = {isa = PBXBuildFile; fileRef = B3016C21209D089F008848EE /* QR.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B3016C16209D0506008848EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3016C19209D0506008848EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3016C1B209D0506008848EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3016C21209D089F008848EE /* QR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QR.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				B3016C11209D0506008848EE /* ViewController.swift */,
 				B3016C13209D0506008848EE /* Main.storyboard */,
 				B3016C16209D0506008848EE /* Assets.xcassets */,
+				B3016C21209D089F008848EE /* QR.png */,
 				B3016C18209D0506008848EE /* LaunchScreen.storyboard */,
 				B3016C1B209D0506008848EE /* Info.plist */,
 			);
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3016C1A209D0506008848EE /* LaunchScreen.storyboard in Resources */,
+				B3016C22209D08A0008848EE /* QR.png in Resources */,
 				B3016C17209D0506008848EE /* Assets.xcassets in Resources */,
 				B3016C15209D0506008848EE /* Main.storyboard in Resources */,
 			);
@@ -277,11 +281,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52KF73MQVV;
 				INFOPLIST_FILE = Constraints/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.serkanozdemir.Constraints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +297,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52KF73MQVV;
 				INFOPLIST_FILE = Constraints/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.serkanozdemir.Constraints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
