@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="imS-UQ-GAe">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,7 +16,7 @@
             <objects>
                 <navigationController id="imS-UQ-GAe" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="XYV-Xd-cNo">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -34,55 +34,55 @@
             <objects>
                 <viewController id="OSg-cQ-cBP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y9g-T4-Fnc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qI-ad-8ih">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Red1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1u3-od-Tn9">
-                                <rect key="frame" x="0.0" y="361" width="375" height="24"/>
+                                <rect key="frame" x="0.0" y="327" width="320" height="20"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Green"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QR.png" translatesAutoresizingMaskIntoConstraints="NO" id="f86-pg-1Ue">
-                                <rect key="frame" x="145" y="44" width="85" height="85"/>
+                                <rect key="frame" x="117.5" y="38" width="85" height="85"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="0EU-Wa-WMN"/>
                                     <constraint firstAttribute="height" constant="85" id="fbQ-tC-twJ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="LOREM IPSUM DOLOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qtu-6x-kgQ">
-                                <rect key="frame" x="57" y="139" width="261" height="30"/>
+                                <rect key="frame" x="29.5" y="153" width="261" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, eos id dicat dicunt electram, duo ad prompta" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z79-HV-ATf">
-                                <rect key="frame" x="25.5" y="177" width="324.5" height="36"/>
+                                <rect key="frame" x="0.0" y="191" width="320.5" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SH0-cO-deR">
-                                <rect key="frame" x="0.0" y="221" width="375" height="36.5"/>
+                                <rect key="frame" x="0.0" y="235" width="320" height="30.5"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Red2"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5on-G4-TI0">
-                                <rect key="frame" x="0.0" y="524.5" width="375" height="78.5"/>
+                                <rect key="frame" x="0.0" y="438.5" width="320" height="65.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Blue"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bo2-hk-qhz">
-                                <rect key="frame" x="0.0" y="488.5" width="375" height="36"/>
+                                <rect key="frame" x="0.0" y="408" width="320" height="30.5"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Red3"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2j-6O-k3k">
-                                <rect key="frame" x="42" y="257.5" width="103.5" height="103.5"/>
+                                <rect key="frame" x="50" y="265.5" width="61" height="61.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="w2j-6O-k3k" secondAttribute="height" multiplier="1:1" id="x6M-iS-2DE"/>
@@ -90,17 +90,17 @@
                                 <state key="normal" title="Menu 1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mI-48-S9u">
-                                <rect key="frame" x="42" y="385" width="103.5" height="103.5"/>
+                                <rect key="frame" x="50" y="347" width="61" height="61"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Menu 3"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rb8-wZ-dqO">
-                                <rect key="frame" x="229.5" y="385" width="103.5" height="103.5"/>
+                                <rect key="frame" x="210" y="347" width="61" height="61"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Menu 4"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uw0-Up-Bzu">
-                                <rect key="frame" x="229.5" y="257.5" width="103.5" height="103.5"/>
+                                <rect key="frame" x="210" y="265.5" width="61" height="61.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Menu 2"/>
                             </button>
@@ -118,7 +118,7 @@
                             <constraint firstItem="SH0-cO-deR" firstAttribute="top" secondItem="z79-HV-ATf" secondAttribute="bottom" constant="8" symbolic="YES" id="Bmd-pX-zTK"/>
                             <constraint firstItem="1u3-od-Tn9" firstAttribute="top" secondItem="w2j-6O-k3k" secondAttribute="bottom" id="D3c-PK-Wzs"/>
                             <constraint firstItem="Rb8-wZ-dqO" firstAttribute="centerX" secondItem="hbZ-DK-azV" secondAttribute="centerX" multiplier="1.5" id="ELd-hk-J5S"/>
-                            <constraint firstItem="Qtu-6x-kgQ" firstAttribute="top" secondItem="f86-pg-1Ue" secondAttribute="bottom" constant="10" id="F3R-Q4-NXh"/>
+                            <constraint firstItem="Qtu-6x-kgQ" firstAttribute="top" relation="lessThanOrEqual" secondItem="f86-pg-1Ue" secondAttribute="bottom" priority="750" constant="30" id="F3R-Q4-NXh"/>
                             <constraint firstItem="Uw0-Up-Bzu" firstAttribute="centerX" secondItem="hbZ-DK-azV" secondAttribute="centerX" multiplier="1.5" id="G7D-2G-vHI"/>
                             <constraint firstItem="z79-HV-ATf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="y9g-T4-Fnc" secondAttribute="leading" id="HCZ-5r-44X"/>
                             <constraint firstItem="Bo2-hk-qhz" firstAttribute="width" secondItem="y9g-T4-Fnc" secondAttribute="width" id="HMB-ma-oZq"/>
